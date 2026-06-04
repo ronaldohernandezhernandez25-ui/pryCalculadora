@@ -9,7 +9,7 @@ namespace pryCalculadora
         //atributos de entrada
         private float numero1;
         private float numero2;
-
+        private string mensaje = "no hace nada";
         //atributo de salida
         private float Resultado;
 

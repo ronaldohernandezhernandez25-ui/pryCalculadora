@@ -12,7 +12,7 @@ namespace pryCalculadora
         private string mensaje = "no hace nada";
         private string mensaje2 = "no hace nada 2";
         private string mensaje3 = "no hace nada 3";
-
+        private string mensajeSinSentido = "holaa";
         //atributo de salida
         private float Resultado;
 

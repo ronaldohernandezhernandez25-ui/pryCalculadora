@@ -10,6 +10,8 @@ namespace pryCalculadora
         private float numero1;
         private float numero2;
         private string mensaje = "no hace nada";
+
+        // no se que mas ponerle by monse
         private string mensaje2 = "no hace nada 2";
         private string mensaje3 = "no hace nada 3";
         private string mensajeSinSentido = "holaa";

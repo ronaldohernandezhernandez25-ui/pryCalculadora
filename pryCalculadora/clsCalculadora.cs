@@ -15,10 +15,6 @@ namespace pryCalculadora
         private string mensaje2 = "no hace nada 2";
         private string mensaje3 = "no hace nada 3";
 
-        // .... Mon
-
-        private string mensaje4 = "No hace nada";
-
         //atributo de salida
         private float Resultado;
 
@@ -33,6 +29,20 @@ namespace pryCalculadora
             Resultado = Numero1 + Numero2;
             return Resultado;
         }
-        
+        public float Restar()
+        {
+            Resultado = Numero1 - Numero2;
+            return Resultado;
+        }
+        public float Multiplicar()
+        {
+            Resultado = Numero1 * Numero2;
+            return Resultado;
+        }
+        public float Dividir()
+        {
+            Resultado = Numero1 / Numero2;
+            return Resultado;
+        }
     }
 }
